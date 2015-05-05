@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Identification of document type is first tag in order to pass validation-->
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>NanoDegreeWebSiteHomePage</title>
+    </head>
+    <body>
+      <h1 class="headline">Section 1</h1>
+        <h2 class="subhead">The Basics of Web and HTML</h2>
+          <div class="section">
+            <p class="smcap">This is the beginning of my site for the NanoDegree class. The first thing I learned was how to use tags in order to make words <b>bold</b> or <em>italicized.</em></p>
+            <p class="smcap"><span class="link">This image is also a link to Grantland.com, which has many interesting articles about sports and pop-culture, and therefore I visit it frequently:<br><br><a href = "http://www.grantland.com" target=_blank><img src="images/grantland.png" alt="Sorry!"></a></span></p> 
+            <p class="smcap">I also learned the difference between <b>Inline</b> and <b>Block</b> elements.</p>
+            <p class="smcap">Examples of inline tags are the break* tag, the form tag and the span tag.</p>
+            <p class="smcap">Examples of block tags, <em>which are intended to make a box of text</em>, are the paragraph tag, the strong tag and the div tag.
+            </p>
+            <p class="smcap"><span class="note"><b>*Note:</b> <em>Need to research how to put the actual tags into plain text so that the computer doesn't interpret as code.</em></span></p>
+          </div><br>
+      <h1 class="headline">Section 2</h1>
+        <h2 class="subhead">Creating a Structured Document</h2>
+          <div class="section">
+            <p class="smcap">Websites are structured using a 'tree' with matching elements that get lined up using "tags" in a computer language called HTML.</p>
+            <p class="smcap">The computer then interprets the HTML in order to identify how the page should look using style sheets (CSS).</p>
+            <p class="smcap">Most browsers have developer tools that allow you to see the source code as well as the style sheets, which is helpful for learning how to code a site.</p>
+            <p class="smcap">Basically everything on a website is just a series of boxes made to look like other things, even <b class="green">circles.</b></p>
+            <p class="smcap">Websites can also be thought of as one big grid with many boxes within them.</p>         
+          </div><br>
+      <h1 class="headline">Section 3</h1>
+        <h2 class="subhead">Adding CSS Style and Structure</h2>
+          <div class="section">
+            <p class="smcap">Cascading Style Sheets (CSS) can be added to your code as a linked file <b>or</b> at the top of the HTML document <b>or</b> within the tag itself (very repetitive, not recommended).</p>
+            <p class="smcap">Not repeating yourself is important because it will save time and ensure that site formatting and appearance is consistent throughout.</p>
+            <p class="smcap">"Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect. That idea is known as inheritance and understanding it requires abstract thinking.</p>
+            <p class="smcap"> As mentioned above, HTML elements are placed into boxes and each box has 4 main components, but can also have many sub-components. Because there are so many components to each box, it can often be hard to get the size of a box just right.</p>
+            <p class="smcap">Adding the rule "display: flex;" to the appropriate CSS will let 'DIVs' appear next to each other instead of taking up the whole page.</p>
+          </div><br>
+      <h1 class="headline">Section 4</h1>
+        <h2 class="subhead">Introduction to Serious Programming</h2>
+          <div class="section">
+            <p class="smcap">Most machines do one or a few things with some settings/options, computers on the other hand, can do anything based on how it is programmed...and very fast.</p>
+            <p class="smcap">Python is a high level language to interpret & execute programs into a language the computer understands.</p>
+            <p class="smcap">Why not use english or any spoken language? Because language is too ambiguous (not specific) and verbose (not precise).</p>
+            <p class="smcap">Python grammar: Expression --> Expression Operator Expression where non-terminal values are replaced until only terminal values remain.</p>
+            <p class="smcap">Computer processors need to be small so that light can be sent across fast enough for a cycle to complete.</p>
+          </div><br>
+      <h1 class="headline">Section 5</h1>
+        <h2 class="subhead">Variables and Strings</h2>
+          <div class="section">
+            <p class="smcap">Using names to keep track of values in order to know what numbers and other things mean is known as a variable (name = Expression). Variables start with a letter or underscore. Variables can <em>vary</em> based on the most recent assignment. You have to assign/introduce a value to each variable before adding or changing it to another variable.</p>
+            <p class="smcap">Strings are sequences of characters surrounded by quotes. Use double or single quotes to put the opposite as text in your string. Put strings together using a '+' sign to concatenate.</p>
+            <p class="smcap">Index strings extract subsequences from a string using brackets. Remember that indexes start at 0. Use negative numbers to count from the back. You can multiply with strings, but not add.</p>
+            <p class="smcap">Subsequences can be found using expression strings that are a subsequence of all characters in the variable. Leave the ':' open to count to end, start with ':' to count from the beginning.</p>
+            <p class="smcap">.find is a method/procedure used to find specific substrings in a string. If a string isn't found in the search, the value returned will be -1.</p>
+            <p class="smcap"><span class="note"><b>Note:</b><em> Python notes start with '#' and Python cares about capitalization.</em></span></p>
+          </div><br>
+      <h1 class="headline">Section 6</h1>
+        <h2 class="subhead">Functions/Procedures</h2>
+          <div class="section">
+            <p class="smcap">Functions take input and produce output using the keywords 'def' and 'return'.</p>
+            <p class="smcap">There is a difference between how functions are defined (inputs) vs how they are used (print lines & output are different for example). </p>
+            <p class="smcap">In code like the following, the code in parenthesis defines the function: <em>def rest_of_string(s):</em> versus code like this where it defines the variable to be used when running the function: <em>print rest_of_string("audacity").</em></p>
+            <p class="smcap">Functions allow programs to perform the same activity multiple times for different sets of variables, saving time so that each activity doesn't need to be coded separately.</p>
+            <p class="smcap">If a function doesn't have a return call, then there isn't any outcome ("None" is returned).</p>
+          </div><br>
+      <h1 class="headline">Section 7</h1>
+        <h2 class="subhead">Control Flow and Loops</h2>
+          <div class="section">
+            <p class="smcap">Code can make decisions by using operators such as 'if', 'else' and 'or' to allow for comparisons to be done within a block.</p>
+            <p class="smcap">Boolean decisions return a 'True' or 'False' value.</p>
+            <p class="smcap">For an 'or' statement, if the first expression evaluates to true, the value is true and the second expression is not evaluated. If the value of the first expression is false, then the value of the <b>or</b> is the value of the second expression.</p>
+            <p class="smcap">Loops, such as the "while" operator allow for a function to run as many times as needed and can even run forever if not written correctly.</p>
+            <p class="smcap">A "break" operator stops a loop when a test condition becomes true.</p>
+            <p class="smcap">Bugs are inevitable and it is important to develop a strategy for finding and getting rid of them.</p>
+          </div><br>
+      <h1 class="headline">Section 8</h1>
+        <h2 class="subhead">Lists and For Loops</h2>
+          <div class="section">
+            <p class="smcap">Lists are sequences of anything. Lists are formatted using square brackets where the elements are separated by commas. Lists are indexed starting at 0.</p>
+            <p class="smcap">Mutation changes the value of a list after it has been created it by replacing the value and changing the assignment. Changing a value affects other values that reference the same object (aliasing). In mutation procedures, there's no need to have a return statement of the changed value.</p>
+            <p class="smcap">Append: Method for adding a new element to the end of a list (list stays the same).</p>
+            <p class="smcap">Plus: Add/concatenate two lists, produces new list.</p>
+            <p class="smcap">Len: Finding the length or number of elements or characters in a string.</p>
+            <p class="smcap">For: For each element in the list, assign that element to the name and evaluate the block.</p>
+            <p class="smcap">Index can find the position in a list where the value occurs. Gives error if the value is not found.</p>
+            <p class="smcap">In: True or false if a value is in a list; Not in: True or false if a value is NOT in a list.</p>
+            <p class="smcap">Learning how technology actually works is how you build your technological empathy. This empathy will help you diagnose and fix bugs that otherwise would have been a mystery to you.</p>
+          </div><br>
+      <h1 class="headline">Section 9</h1>
+        <h2 class="subhead">How to Solve Problems</h2>
+          <div class="section">
+            <p class="smcap">For solving complex problems, first make sure you understand the problem. In a computational problem, it can be defined by possible inputs and the relationship between inputs and desired outputs.</p>
+            <p class="smcap">First rule: What are the inputs? What is the set of valid inputs? How are inputs represented?</p>
+            <p class="smcap">Second rule: What are the outputs?</p>
+            <p class="smcap">Third rule: Solve the problem. Work out examples to understand the relationship between inputs and outputs. Consider systematically how a human would solve the problem.</p>
+            <p class="smcap">Write an algorithm and/or "pseudo code" that solves the problem. Decide, should I implement the algorithm? Or try to find a better way by determining what isn't handled in pseudo code.</p>
+            <p class="smcap">Find a simple mechanical solution and don't optimize prematurely.</p>
+            <p class="smcap">Once you start coding, start with the portion of the procedure that solves the main/simple case. Write small pieces of code so you know what they do (develop incrementally).</p>
+          </div><br>
+    </body>
+  </html>
